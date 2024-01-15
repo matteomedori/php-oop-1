@@ -27,6 +27,15 @@ class Movie {
         $this->vote = $_vote;
         $this->genres = $_genres;
     }
+    
+    /**
+     * getAuthor
+     *
+     * @return string
+     */
+    public function getAuthor(){
+        return $this->author;
+    }
 }
 
 // vengono creati 2 oggetti movie
